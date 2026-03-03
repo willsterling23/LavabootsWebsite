@@ -97,9 +97,12 @@ nav {
     display: flex;
     flex-direction: column; /* Stacks image and info vertically */
     height: 100%; /* Ensures all cards in a row match the tallest one */
+    transition: transform .3s ease;
 }
 
-.game-card:hover { transform: translateY(-10px); }
+.game-card:hover { 
+    transform: scale(1.05); 
+}
 
 .game-img {
     width: 100%;
