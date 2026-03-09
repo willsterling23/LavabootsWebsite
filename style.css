@@ -147,6 +147,91 @@ nav {
      color: var(--bg); 
     }
 
+.services-section {
+    padding: 60px 5%;
+    text-align: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.section-title {
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+.services-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    text-align: left;
+}
+
+.service-item h3 {
+    color: var(--accent);
+    margin-bottom: 1rem;
+    border-left: 3px solid var(--accent);
+    padding-left: 10px;
+}
+
+.service-item p {
+    line-height: 1.6;
+    color: #ccc;
+    font-size: 0.95rem;
+}
+
+.contact-section {
+    padding: 80px 5%;
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.contact-form {
+    background: var(--card-bg);
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.form-group input, 
+
+.form-group textarea {
+    width: 100%;
+    padding: 0.8rem;
+    background: #252525;
+    border: 1px solid #444;
+    color: white;
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--accent);
+}
+
+.submit-btn {
+    width: 100%;
+    cursor: pointer;
+    background: transparent;
+}
+
 footer { 
     text-align: center; 
     padding: 4rem; 
